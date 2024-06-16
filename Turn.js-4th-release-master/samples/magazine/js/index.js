@@ -5,11 +5,9 @@ function spinner(){
   let wheel = document.querySelector('.spinner-img')
   count++
   wheel.style.transform = `rotate(${count}deg)`
-  // wheel.style.transform = 'rotate(300deg)'
-// console.log(count)
-// console.log(`${count}`)
-setTimeout(spinner, 50)
-}
+  setTimeout(spinner, 50)
+  }
+
 let index = 0
 displayText()
 function displayText(){
@@ -69,18 +67,12 @@ function displayText(){
 
     if ( `${hour}` <= '0' && `${minute}` <= '0' &&  `${seconds}` <= '0') {
       cat.style.display = 'block'
-      // dateElem.innerHTML = 'THis Event Is Ongoing'
       timerCount.style.display = 'block'
       timerCount.innerHTML = 'This event has already started'
       dateElem.style.display = 'none'
     }
-      
-    console.log(`${minute}`)
-    console.log(dateElem)
   }, 1000);
   
-
-
   let eventDate = document.querySelector('.date')
   let address = document.querySelector('.location-map')
   let specialGuest = document.querySelector('.delegates')
@@ -101,8 +93,7 @@ function displayText(){
       address.style.display = 'none'
     }
   }
-
-
+  
   let slide = 0
   display()
   function display(){
@@ -119,21 +110,16 @@ function displayText(){
     console.log(slide)
   }
   
-  // let goBack = document.querySelector('.book-container')
-  // goBack.style.display = 'none'
-  
   function changer(){
-  // console.log('me')
+
   let mainContent = document.querySelector('.project-container')
   let bookContainer = document.querySelector('.book-container')
   bookContainer.style.marginLeft = '0px'
   bookContainer.style.transition  = '10s ease in out'
   mainContent.style.display = 'none'
-  // goBack.style.display = 'block'
 }
 
 function goBackFub(){
-  // alert('hi')
   let mainContent = document.querySelector('.project-container')
   mainContent.style.display = 'block'
 }
@@ -144,3 +130,12 @@ function iconContRemove(){
   eventDate.style.display = 'none'
   specialGuest.style.display = 'none'  
 }
+
+      
+    
+
+
+
+
+  
+
