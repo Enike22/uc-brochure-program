@@ -51,7 +51,7 @@ function displayText(){
   let timerCount = document.querySelector('.timer-text')
   let cat = document.querySelector('.cat')
   let dateElem = document.querySelector('.timer')
-  let expectedDate = new Date('June 19, 2024 14:39:00').getTime()
+  let expectedDate = new Date('June 21, 2024 14:39:00').getTime()
 // console.log(expectedDate.innerHTML)
   setInterval(() => {
     let newDate = new Date().getTime()
@@ -110,11 +110,12 @@ function displayText(){
     // console.log(slide)
   }
   
+  bookContainer.style.display = 'none'
   function changer(){
 
   let mainContent = document.querySelector('.project-container')
   let bookContainer = document.querySelector('.book-container')
-  bookContainer.style.marginLeft = '0px'
+  bookContainer.style.display = 'block'
   bookContainer.style.transition  = '10s ease in out'
   mainContent.style.display = 'none'
 }
