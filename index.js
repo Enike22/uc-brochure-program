@@ -28,10 +28,7 @@ function displayText(){
     let span1 = document.createElement('div')
     let span2 = document.createElement('div')
     spanBox.style.display = 'block'
-    // span1.style.marginLeft = '980px'
-    // span2.style.marginLeft = '0px'
     
-    // span1.style.transition = marginLeft
     
     span1.classList.add ('span1')
     span2.classList.add ('span2')
@@ -51,7 +48,7 @@ function displayText(){
   let timerCount = document.querySelector('.timer-text')
   let cat = document.querySelector('.cat')
   let dateElem = document.querySelector('.timer')
-  let expectedDate = new Date('June 21, 2024 14:39:00').getTime()
+  let expectedDate = new Date('June 23, 2024 14:39:00').getTime()
 // console.log(expectedDate.innerHTML)
   setInterval(() => {
     let newDate = new Date().getTime()
@@ -110,19 +107,20 @@ function displayText(){
     // console.log(slide)
   }
   
-  bookContainer.style.display = 'none'
+  
+  let mainContent = document.querySelector('.front-content')
+  let bookContainer = document.querySelector('.book-container')
   function changer(){
 
-  let mainContent = document.querySelector('.project-container')
-  let bookContainer = document.querySelector('.book-container')
   bookContainer.style.display = 'block'
   bookContainer.style.transition  = '10s ease in out'
   mainContent.style.display = 'none'
 }
 
 function goBackFub(){
-  let mainContent = document.querySelector('.project-container')
+  // let mainContent = document.querySelector('.book-container')
   mainContent.style.display = 'block'
+  bookContainer.style.display = 'none'
 }
 
 function iconContRemove(){
