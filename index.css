@@ -601,8 +601,9 @@
   }
 
   .cat {
-    width: 80px;
-    height: 20px;
+    width: 90px;
+    height: 25px;
+    font-size: 12px;
     font-size: 11px;
     margin: -330px 10px 10px 670px;
   }
@@ -710,9 +711,9 @@
   }
 
   .cat {
-    width: 80px;
-    height: 20px;
-    font-size: 11px;
+    width: 90px;
+    height: 25px;
+    font-size: 12px;
     margin: -380px 10px 10px 560px;
   }
   .timer {
@@ -784,10 +785,12 @@
   
   .project-container {
     height: 858;
+    
   }
   .front-content {
-    margin: 320px -325px;
+    margin: 320px -310px;
     height: 800px;
+    
   }
 
   .spinner-image {
@@ -817,7 +820,7 @@
   .span1 {
     width: 3px;
     height: 23px;
-    margin: -3px 286px;
+    margin: -3px 295px;
   }
 
   .span2 {
@@ -828,9 +831,9 @@
   }
 
   .cat {
-    width: 85px;
-    height: 20px;
-    font-size: 11px;
+    width: 90px;
+    height: 25px;
+    font-size: 12px;
     margin: -370px 10px 10px 478px;
     white-space: pre;
   }
@@ -848,7 +851,7 @@
   .button-content {
     width: 40%;
     height: 250px;
-    margin: -360px 375px;
+    margin: -360px 384px;
     display: flex;
   }
   .nav-button-img {
@@ -857,27 +860,155 @@
   }
   .date {
     width: 65%;
-    height: 200px;
+    height: 180px;
     font-size: 25px;
-    margin: -180px 375px;
+    margin: -180px 383px;
   }
   .date p {
     margin: 50px 40px;
   }
   .main-map {
     width: 310px;
-    height: 260px;
+    height: 190px;
   }
   .location-map {
-    margin: -190px 10px 10px 354px;
+    margin: -190px 10px 10px 370px;
   }
 
   .delegates {
     display: none;
   }
   .persons {
-    width: 550px;
-    margin: -190px 432px;
+    /* width: 550px; */
+    margin: -190px 452px;
+    position: absolute;
+  }
+  .persons-img {
+    width: 35%;
+  }
+
+  .timer-text {
+    width: 36%;
+    font-size: 30px;
+    height: 50px;
+    margin: 30px 10px 10px 565px;
+  }
+
+  .logo {
+    width: 65%;
+    margin: 14px -113px;
+  }
+  .return-button {
+    width: 80px;
+    height: 40px;
+    margin: 140px 170px;
+  }
+}
+@media (max-width: 414px) {
+  .container-img {
+    width: 140%;
+    height: 890px;
+  }
+
+  
+  .project-container {
+    height: 858;
+    
+  }
+  .front-content {
+    margin: 320px -320px;
+    height: 800px;
+    
+  }
+
+  .spinner-image {
+    width: 150px;
+    margin: -550px 10px 10px 460px;
+  }
+  .text-content {
+    width: 70%;
+    height: 60px;
+    color: rgb(192, 192, 252);
+    font-size: 13px;
+    font-weight: bold;
+    margin: -410px 10px 10px 376px;
+    position: absolute;
+    white-space: pre-line;
+    text-align: center;
+  }
+
+  .organization-name {
+    width: 40%;
+    height: 40px;
+    font-size: 25px;
+    margin: -620px 10px 10px 440px;
+    text-align: center;
+    /* white-space: pre; */
+  }
+  .span1 {
+    width: 3px;
+    height: 23px;
+    margin: -3px 285px;
+  }
+
+  .span2 {
+    width: 3px;
+    height: 23px;
+    background-color: blue;
+    margin: -23px 0px;
+  }
+
+  .cat {
+    width: 90px;
+    height: 25px;
+    font-size: 12px;
+    margin: -370px 10px 10px 478px;
+    white-space: pre;
+  }
+  .timer {
+    width: 250px;
+    font-size: 14px;
+    margin: -300px 410px;
+    position: absolute;
+  }
+  .count {
+    font-size: 15px;
+    margin: -320px 486px;
+    position: absolute;
+  }
+  .button-content {
+    width: 40%;
+    height: 250px;
+    margin: -360px 384px;
+    display: flex;
+  }
+  .nav-button-img {
+    width: 5px;
+    /* margin-top: 10px; */
+  }
+  .date {
+    width: 65%;
+    height: 180px;
+    font-size: 25px;
+    margin: -180px 383px;
+  }
+  .date p {
+    margin: 50px 40px;
+  }
+  .main-map {
+    width: 310px;
+    height: 220px;
+  }
+  .location-map {
+    margin: -190px 10px 10px 370px;
+  }
+
+  .delegates {
+    display: none;
+  }
+  .persons {
+    width: 500px;
+    margin: -190px 443px;
     position: absolute;
   }
   .persons-img {
@@ -901,6 +1032,128 @@
     margin: 140px 170px;
   }
 }
+
+@media (max-width: 390px) {
+  .container-img {
+    width: 140%;
+    height: 890px;
+  }
+  .front-content {
+    margin: 320px -321px;
+    height: 800px;
+  }
+  .spinner-image {
+    width: 150px;
+    margin: -550px 10px 10px 460px;
+  }
+  .text-content {
+    width: 70%;
+    height: 60px;
+    color: rgb(192, 192, 252);
+    font-size: 13px;
+    font-weight: bold;
+    margin: -410px 10px 10px 376px;
+    position: absolute;
+    white-space: pre-line;
+    text-align: center;
+  }
+
+  .organization-name {
+    width: 40%;
+    height: 40px;
+    font-size: 25px;
+    margin: -620px 10px 10px 440px;
+    text-align: center;
+    /* white-space: pre; */
+  }
+  .span1 {
+    width: 3px;
+    height: 23px;
+    margin: -3px 280px;
+  }
+
+  .span2 {
+    width: 3px;
+    height: 23px;
+    background-color: blue;
+    margin: -23px -10px;
+  }
+
+  .cat {
+    width: 85px;
+    height: 20px;
+    font-size: 11px;
+    margin: -370px 10px 10px 478px;
+    white-space: pre;
+  }
+  .timer {
+    width: 250px;
+    font-size: 14px;
+    margin: -300px 410px;
+    position: absolute;
+  }
+  .count {
+    font-size: 15px;
+    margin: -320px 486px;
+    position: absolute;
+  }
+  .button-content {
+    width: 40%;
+    height: 250px;
+    margin: -360px 380px;
+    display: flex;
+  }
+  .nav-button-img {
+    width: 5px;
+    /* margin-top: 10px; */
+  }
+  .date {
+    width: 65%;
+    height: 180px;
+    font-size: 25px;
+    margin: -190px 383px;
+  }
+  .date p {
+    margin: 50px 40px;
+  }
+  .main-map {
+    width: 310px;
+    height: 190px;
+  }
+  .location-map {
+    margin: -190px 10px 10px 358px;
+  }
+
+  .delegates {
+    display: none;
+  }
+  .persons {
+    /* width: 500px; */
+    margin: -190px 443px;
+    position: absolute;
+  }
+  .persons-img {
+    width: 28%;
+  }
+
+  .timer-text {
+    width: 36%;
+    font-size: 30px;
+    height: 50px;
+    margin: 30px 10px 10px 565px;
+  }
+
+  .logo {
+    width: 65%;
+    margin: 14px -113px;
+  }
+  .return-button {
+    width: 80px;
+    height: 40px;
+    margin: 140px 170px;
+  }
+}
+
 @media (max-width: 375px) {
   .front-content {
     margin: 320px -315px;
