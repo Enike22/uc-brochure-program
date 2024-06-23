@@ -48,7 +48,7 @@ function displayText(){
   let timerCount = document.querySelector('.timer-text')
   let cat = document.querySelector('.cat')
   let dateElem = document.querySelector('.timer')
-  let expectedDate = new Date('June 23, 2024 14:39:00').getTime()
+  let expectedDate = new Date('June 30, 2024 14:39:00').getTime()
 // console.log(expectedDate.innerHTML)
   setInterval(() => {
     let newDate = new Date().getTime()
